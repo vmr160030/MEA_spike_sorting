@@ -11,4 +11,9 @@ Reading the raw data requires the bin2py module part of a package developed by C
 2. cd to `{unzipped_folder}/utilities`
 3. `pip install .`
 
+If the above fails with "Module Not Found: Cython" error, try running:
+```
+pip install --no-build-isolation -e .
+```
+
 Sometimes importing the installed bin2py gives errors right after installation. Try restarting the kernel or your system.
