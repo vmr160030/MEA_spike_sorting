@@ -1,1 +1,4 @@
 *.pyc
+.eggs/
+build/
+vision_utils.egg-info/
